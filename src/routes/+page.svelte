@@ -4,7 +4,7 @@
   import { onMount } from 'svelte';
 
     onMount(() => {
-        goto('/Inlog');
+        goto('/inlog');
     });
 </script>
 
