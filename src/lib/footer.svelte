@@ -9,6 +9,10 @@
 </footer>
 
 <style>
+    footer {
+        margin-top: 2em;
+    }
+
     p {
         background-color: var(--D-t-support);
         color: white;
