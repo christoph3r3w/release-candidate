@@ -1,6 +1,6 @@
 <script>
-    // export let data;
-    export let num
+    export let data;
+	import ComponentBox from '$lib/ComponentBox.svelte';
 </script>
 
 <section>
