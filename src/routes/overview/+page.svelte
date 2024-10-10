@@ -1,9 +1,8 @@
 <script>
-    import {ComponentBox, CardComponent, GeneralInfo} from "$lib/index.js";
+    // import {ComponentBox, CardComponent, GeneralInfo} from "$lib/index.js";
 	export let data;
 	// import '../../styles/overview.css'
-    import {MobilityOptions,GeneralInfo, PackageComponent,ComponentBox} from '$lib';
-   
+    import {MobilityOptions, GeneralInfo, CardComponent, ComponentBox} from '$lib/index.js';
 
     export let num = 0;
 </script>
@@ -27,7 +26,7 @@
     titleAlign=""
     class="box2"
     >
-        <PackageComponent {data} />
+        <CardComponent {data} />
     
     </ComponentBox>
 

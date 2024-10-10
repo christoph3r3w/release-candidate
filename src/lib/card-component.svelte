@@ -27,7 +27,7 @@
 	}
 
 	li {
-		width: 17.5em;
+		width: 16.5em;
 		list-style-type: none;
 		display: flex;
 		flex-direction: column;
